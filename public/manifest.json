@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "TubeFree - The Ultimate Offline YouTube Alternative",
+  "short_name": "TubeFree",
+  "description": "Next-generation 100% offline entertainment super-app. Movies, Dramas, Islamic, Cartoons, and P2P Wi-Fi Direct sync.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f0f0f",
+  "theme_color": "#e11d48",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

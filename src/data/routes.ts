@@ -1,0 +1,40 @@
+import { RouteInfo } from '../types/game';
+
+export const PUNJAB_ROUTES: RouteInfo[] = [
+  {
+    id: 'grand_express',
+    name: 'Grand Punjab Corridor: Lahore to Faisalabad',
+    urduName: 'شاہین گرینڈ ایکسپریس: لاہور تا فیصل آباد',
+    origin: 'Badami Bagh Terminal, Lahore',
+    destination: 'General Bus Stand, Faisalabad',
+    distanceKm: 128,
+    difficulty: 'Extreme',
+    description: 'The ultimate Punjab driving experience. Blast down the GT Road, navigate treacherous canal banks, cross the narrow single-lane brick bridge, and tackle rural mud ruts.',
+    targetPassengers: 48,
+    baseFarePKR: 4200,
+  },
+  {
+    id: 'canal_extreme',
+    name: 'Nehr di Patri & Single-Lane Brick Bridge',
+    urduName: 'نہردی پٹڑی اور تنگ پلی چیلنج',
+    origin: 'Canal Chowk, Sheikhupura',
+    destination: 'Chianwali Rural Adda',
+    distanceKm: 45,
+    difficulty: 'Brutal',
+    description: 'Treacherous broken asphalt alongside a deep canal with zero guardrails. Precision steering required to cross the British-era brick bridge without falling into the water!',
+    targetPassengers: 24,
+    baseFarePKR: 2800,
+  },
+  {
+    id: 'gt_road_express',
+    name: 'GT Road (N-5) High-Speed Highway Cruiser',
+    urduName: 'جی ٹی روڈ این-5 شاہراہ ایکسپریس',
+    origin: 'Lahore Adda',
+    destination: 'Gujranwala Bypass Stop',
+    distanceKm: 65,
+    difficulty: 'Moderate',
+    description: 'High-speed intercity cruiser run. Overtake slow-moving sugarcane tractor-trolleys and Bedford cargo trucks while honking the legendary Pakistani WAPDA musical horn!',
+    targetPassengers: 35,
+    baseFarePKR: 3200,
+  },
+];
